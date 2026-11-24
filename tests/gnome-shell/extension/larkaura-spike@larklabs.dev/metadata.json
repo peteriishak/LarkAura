@@ -1,0 +1,6 @@
+{
+  "uuid": "larkaura-spike@larklabs.dev",
+  "name": "LarkAura GNOME spike",
+  "description": "Throwaway feasibility test. Runs only in the isolated headless session started by run.sh.",
+  "shell-version": ["50"]
+}

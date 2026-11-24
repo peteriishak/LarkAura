@@ -1,0 +1,8 @@
+format = 1
+id = "fireflies"
+name = "Fireflies"
+effect = "fireflies"
+intensity = 0.5
+wind = 0.0
+color = [0.98, 0.82, 0.3]
+opacity = 0.95

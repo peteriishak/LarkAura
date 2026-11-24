@@ -1,0 +1,9 @@
+format = 1
+id = "blossom-drift"
+name = "Blossom Drift"
+effect = "blossom"
+intensity = 0.5
+wind = 0.14
+color = [0.95, 0.56, 0.7]
+opacity = 0.92
+palette = [[0.95, 0.56, 0.7], [0.97, 0.68, 0.78], [0.9, 0.46, 0.64]]

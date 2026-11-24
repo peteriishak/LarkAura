@@ -1,0 +1,42 @@
+[workspace]
+resolver = "3"
+members = ["apps/engine", "apps/studio/src-tauri", "crates/*", "platform/linux-wayland"]
+# Studio needs desktop web libraries, so it is built only when asked for.
+default-members = ["apps/engine", "crates/*", "platform/linux-wayland"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/peteriishak/LarkAura"
+publish = false
+
+[workspace.dependencies]
+aura-core = { path = "crates/aura-core" }
+aura-effects = { path = "crates/aura-effects" }
+aura-format = { path = "crates/aura-format" }
+aura-ipc = { path = "crates/aura-ipc" }
+aura-render = { path = "crates/aura-render" }
+aura-settings = { path = "crates/aura-settings" }
+aura-wallpaper = { path = "crates/aura-wallpaper" }
+aura-linux-wayland = { path = "platform/linux-wayland" }
+bytemuck = { version = "1.25", features = ["derive"] }
+png = "0.18"
+pollster = "1"
+raw-window-handle = "0.6"
+rustix = { version = "1", features = ["event"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+smithay-client-toolkit = { version = "0.21", default-features = false }
+toml = "1"
+wayland-backend = { version = "0.3", features = ["client_system"] }
+wayland-client = "0.31"
+wayland-protocols = { version = "0.32", features = ["client", "staging"] }
+wgpu = { version = "30", default-features = false, features = ["vulkan", "wgsl"] }
+
+[profile.release]
+lto = "thin"
+codegen-units = 4
+opt-level = 3
+panic = "abort"
+strip = true

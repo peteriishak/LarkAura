@@ -1,0 +1,8 @@
+format = 1
+id = "low-fog"
+name = "Low Fog"
+effect = "fog"
+intensity = 0.5
+wind = 0.15
+color = [0.82, 0.86, 0.9]
+opacity = 0.34

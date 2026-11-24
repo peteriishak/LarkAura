@@ -1,0 +1,19 @@
+[package]
+name = "larkaura-engine"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "larkaura-engine"
+path = "src/main.rs"
+
+[dependencies]
+aura-core.workspace = true
+aura-effects.workspace = true
+aura-format.workspace = true
+aura-ipc.workspace = true
+aura-render.workspace = true
+aura-linux-wayland.workspace = true

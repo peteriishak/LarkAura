@@ -1,0 +1,7 @@
+{
+  "uuid": "larkaura@larklabs.dev",
+  "name": "LarkAura",
+  "description": "Places LarkAura's click-through ambient effects above your windows.",
+  "shell-version": ["50"],
+  "url": "https://github.com/peteriishak/LarkAura"
+}

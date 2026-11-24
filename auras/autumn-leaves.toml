@@ -1,0 +1,9 @@
+format = 1
+id = "autumn-leaves"
+name = "Autumn Leaves"
+effect = "leaves"
+intensity = 0.55
+wind = 0.2
+color = [0.84, 0.42, 0.14]
+opacity = 0.95
+palette = [[0.84, 0.42, 0.14], [0.76, 0.26, 0.12], [0.9, 0.62, 0.2], [0.62, 0.3, 0.14]]

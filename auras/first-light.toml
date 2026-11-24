@@ -1,0 +1,8 @@
+format = 1
+id = "first-light"
+name = "First Light"
+effect = "motes"
+intensity = 0.55
+wind = 0.08
+color = [1.0, 0.78, 0.52]
+opacity = 0.75

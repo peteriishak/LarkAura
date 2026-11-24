@@ -1,0 +1,9 @@
+format = 1
+id = "night-storm"
+name = "Night Storm"
+effect = "rain"
+intensity = 0.9
+wind = -0.28
+color = [0.16, 0.26, 0.52]
+opacity = 0.95
+lightning = true

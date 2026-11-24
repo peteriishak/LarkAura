@@ -1,0 +1,18 @@
+[package]
+name = "larkaura-studio"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+aura-format.workspace = true
+aura-settings.workspace = true
+aura-wallpaper.workspace = true
+serde.workspace = true
+tauri = { version = "2", features = ["custom-protocol", "protocol-asset"] }
+tauri-plugin-dialog = "2"

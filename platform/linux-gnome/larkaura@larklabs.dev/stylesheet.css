@@ -1,0 +1,58 @@
+/* LarkAura's top bar menu. Colours come from the Shell theme, so the menu
+   follows light and dark styles and the accent colour. */
+
+.larkaura-menu {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.larkaura-menu-box {
+    min-width: 22em;
+}
+
+.larkaura-aura StIcon.popup-menu-icon {
+    icon-size: 16px;
+    opacity: 0.72;
+}
+
+/* The running aura: a check, plus a stronger label and icon, keeping all four
+   corners rounded (GNOME's default :checked flattens bottom corners for submenus). */
+.larkaura-aura:checked {
+    font-weight: bold;
+    border-radius: 12px !important;
+}
+
+.larkaura-aura:checked StIcon.popup-menu-icon {
+    color: -st-accent-color;
+    opacity: 1;
+}
+
+.larkaura-actions {
+    padding-top: 6px;
+    padding-bottom: 4px;
+}
+
+.larkaura-action-wrap {
+    spacing: 4px;
+}
+
+.larkaura-action-box {
+    spacing: 8px;
+}
+
+.larkaura-action {
+    padding: 8px;
+    border-radius: 999px;
+}
+
+.larkaura-action StIcon {
+    icon-size: 16px;
+}
+
+.larkaura-action-hint {
+    min-height: 1.35em;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 0.9em;
+    opacity: 0.78;
+}

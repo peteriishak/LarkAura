@@ -1,0 +1,8 @@
+format = 1
+id = "soft-rain"
+name = "Soft Rain"
+effect = "rain"
+intensity = 0.45
+wind = -0.1
+color = [0.24, 0.38, 0.66]
+opacity = 0.9

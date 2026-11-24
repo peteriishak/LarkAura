@@ -1,0 +1,18 @@
+[package]
+name = "aura-render"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+aura-effects.workspace = true
+bytemuck.workspace = true
+pollster.workspace = true
+raw-window-handle.workspace = true
+wgpu.workspace = true
+
+[dev-dependencies]
+# Checks the shader at test time; the GPU would only reject it at startup.
+naga = { version = "30", features = ["wgsl-in"] }

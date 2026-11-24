@@ -1,0 +1,40 @@
+# Rust build output
+/target/
+/target-*/
+
+# Studio front end
+node_modules/
+apps/studio/dist/
+apps/studio/src-tauri/gen/
+apps/studio/src-tauri/target/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Blender autosaves and backups
+*.blend[0-9]
+*.blend[0-9][0-9]
+
+# Test harness output (run.sh and full-check.sh write wherever you point them)
+tests/gnome-shell/results/
+*.tmp
+
+# Media renders and screen recordings (keep previews in docs/media/ only)
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.wav
+
+# Editors, OS files and local tooling
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+.claude/
+.env
+.env.*
